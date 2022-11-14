@@ -1,0 +1,30 @@
+// Only change code below this line
+
+function countdown(n){
+  if (n < 1){
+    return [];
+  }
+  if (n === 1){
+    return [1];
+  }
+  return [n].concat(countdown(n - 1));
+}
+console.log(countdown(5))
+
+// Second way to countdown
+// function countdown(n){
+  // return [n].concat(n > 1 ? countdown(n - 1) : []);
+// }
+// console.log(countdown(5))
+// Only change code above this line
+
+// function countup(n){
+  // if (n < 1) {
+    // return []
+  // } else{
+    // const countArr = countup(n - 1);
+    // countArr.push(n);
+    // return countArr;
+  // }
+// }
+// console.log(countdown(5));

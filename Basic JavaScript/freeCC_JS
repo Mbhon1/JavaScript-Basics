@@ -1,0 +1,57 @@
+JavaScript Data types;
+1. undefined
+2. null
+3. boolean
+4. string
+5. number
+6. bigint
+7. symbol
+8. object
+
+Variable names can't begin with numbers and don't contain spaces
+
+var myVar; // naming the variable
+myVar = 5; // assigning a value to the variable
+
+var a;
+a = 7;
+var b;
+b = a; // assigning variable "a" to "b" when "b" is called it returns "a"
+
+const variables are read-only meaning they cannot be changed
+
+let myVar = 87;
+myVar++; //incrementing a number
+
+let myVar = 87;
+myVar--; // decrementing a number
+
+decimals are referred to as floating point numbers or floats
+
+the remainder % operator gives the value of the division of two numbers
+5 % 2 = 1 // one is the remainder
+Math.floor(5 / 2) = 2 (Quotient) // breaking down 5 % 2 = 1
+2 * 2 = 4
+5 - 4 = 1 (remainder)
+
+compound assignment with augmented additions
+let myVar = 2;
+myVar += 3;
+console.log(myVar);
+
+Escaping literal quotes in strings
+const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
+const myVar = "I am a \"double quoted\" string inside \"double quotes\".";
+
+Quoting strings with a single quotes
+const goodStr = 'Jake asks Finn, "Hey, lets\'s go on an adventure?"';
+
+Escaping sequences in strings
+single quote - \'
+double quote -  \"
+backslash - \\
+newline - \n
+tab - \t
+carriage return - \r
+word boundary - \b
+form feed \f

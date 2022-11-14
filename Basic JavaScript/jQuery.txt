@@ -1,0 +1,19 @@
+$("ul li a") - How To Select A Hyperlink And Other Elements
+
+$("h1") - Selecting A Element In Html Via Web Browser Console
+
+$("h1").css("font-style", "italic") - Using A Selector To Manipulate An Element
+
+$("p").before("I") - Adding A String Before The Paragh
+
+$("ul").before("<h2>My Fave Anime</h2>") - Adding A Element To The Html Unordered List
+
+$("li").text() - Returns The Value Of The Element List In This Case
+
+$("li:first").text() - Returns The First Value Of The Element
+
+$("p").text("This is my fave list of anime") - Changes The Content Of The Extisting Paragraph
+
+$("li:last").html("<li>Orochimaru</li>") - Changes The Last Value Of The List Using Html
+
+$("p").css(design) - Styles The Content In The Element By Referring To The Html Script

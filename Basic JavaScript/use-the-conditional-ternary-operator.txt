@@ -1,0 +1,15 @@
+function checkEqual(a, b) {
+// using if/else 
+//function findGreater(a, b) {
+  //if(a > b) {
+    //return "a is greater";
+  //}
+  //else {
+    //return "b is greater or equal";
+  //}
+//}
+  return a == b ? "Equal" : "Not Equal"
+}
+
+checkEqual(1, 2);
+console.log(checkEqual())
